@@ -1,0 +1,222 @@
+
+from django.shortcuts import render
+from .models import Station, Rtstation, Form, Luastations, Rtluas, Rtdart, Dartstations 
+from django.http import HttpResponse
+import json
+from django.template import loader
+import folium
+import re,ast
+import itertools
+import datetime
+import time
+from calendar import timegm
+from django.db import connection, transaction
+import datetime
+import time
+import requests
+
+# Create your views here.
+
+def dictfetchall(cursor):
+    "Return all rows from a cursor as a dict"
+    columns = [str(col[0].split("_")[-1]) for col in cursor.description]
+    return [
+        dict(zip(columns, row))
+        for row in cursor.fetchall()
+    ]
+
+def index(request):
+    data = []
+    print("Hello from index")
+    station = Station.objects.all()
+    print(type(station))
+
+    for i in station:
+        data_station = {}
+        data_station['name'] = i.name
+        data_station['number'] = i.number
+        data_station['lat'] = i.lat
+        data_station['log'] = i.lng
+        data.append(data_station)
+    resp = json.dumps(data)
+    return HttpResponse(resp)
+
+
+def homepage(request,timeIn=round(time.time())):
+    context = {'time':timeIn}
+    return render(request, 'myapp/homepage.html',context)
+
+def luas(request):
+    return render(request, 'myapp/homepage_luas.html')
+
+def test(request):
+    return render(request, 'myapp/amartest.html')
+
+def dart(request):
+    return render(request, 'myapp/homepage_dart.html')
+
+def form(request):
+    if request.method == 'POST':
+        try:
+            name = request.POST.get('inputname', None)
+            email = request.POST.get('inputemail', None)
+            prob = request.POST['inputprob']
+            url = request.POST.get('inputurl', None)
+            des = request.POST.get('inputdesc', None)
+            form_data = Form(name=name, email=email, problem=prob, url=url, des=des)
+            form_data.save()
+            print(url)
+            print(prob)
+        except Exception as e:
+            print(e)
+    return render(request, 'myapp/form.html')
+
+def calendar(request):
+    if request.method == 'POST':
+        calendar = request.POST['calendar']
+        utc_time = time.strptime(calendar, "%Y-%m-%dT%H:%M")
+        epoch_time = timegm(utc_time)
+        map(request, epoch_time)
+        #current = round(time.time()) #datetime.datetime.now().replace(second=0, microsecond=0)
+        #print(epoch_time)
+        #print(current)
+        #if current < epoch_time:
+        #    data = requests.get(f'http://35.242.169.123/predict?timestamp={epoch_time}')
+        #    print('Inside If')
+        #    print(data.json())
+        #else:
+        #map(request, epoch_time)
+    else:
+        print("Boo")
+    return render(request, 'myapp/calendar.html')
+
+def map(request, input_time=round(time.time())):
+    number = []
+    timestamp = 1551293222
+    if input_time != "NaN" and int(input_time) > 9999999999:
+        input_time = int(input_time)/1000
+    else:
+        input_time = round(time.time()) 
+    station_data = Station.objects.all()
+    m = folium.Map(location=[53.3465,-6.2635], zoom_start=15)
+    #m.fit_bounds(m.get_bounds())
+    rtstation = Rtstation()
+   # test = Rtstation._meta.get_fields()
+
+   # try:
+   #     for field in test:
+   #         stn_num = next(re.finditer(r'\d+$', str(field))).group(0)
+   #         number.append(stn_num)
+   # except StopIteration:
+   #       pass
+
+    print(input_time)
+    #current = round(time.time())
+    cursor = connection.cursor()
+    if round(time.time()) < int(input_time):
+        cursor.execute("select * from future_rtbike where index < %s +300 and index > %s -300 order by index desc limit 1;",(input_time,input_time,))
+        rtstation_row = dictfetchall(cursor)
+        if  not rtstation_row:
+            data = requests.get(f'http://35.232.102.222/predict?timestamp={input_time}')
+            rtstation_row = data.json() 
+            print("From Random Backend)")
+        print("From future backend")
+        
+        #data = requests.get(f'http://35.242.169.123/predict-ph?timestamp={input_time}')
+        #print('From Predictor',data)
+        #rtstation_row = data.json()
+        print(rtstation_row) 
+    else:
+        #cursor = connection.cursor()  
+        cursor.execute("select * from rtstation where index < %s order by index desc limit 1;",(input_time,))
+        rtstation_row = dictfetchall(cursor)
+        print("From Backend)")
+        #print(rtstation_row)
+        #rtstation_row_2[0].pop('stamp')
+        #print('rtstation_Row_2 is :')
+        #print(rtstation_row_2)
+
+    #cursor.execute("SELECT * FROM rtstation ORDER BY index DESC LIMIT 1")
+    #rtstation_row = dictfetchall(cursor)
+    #print(rtstation_row)
+    #rtstation_row[0].pop('index')
+    #cursor.execute("SELECT * FROM station")
+    #station_row = dictfetchall(cursor)
+    for i in station_data:
+        #data1 = f"{i.name} \n Total_Stands:{i.bike_stands} \n Bikes_Available:{row[0][str(i.number)]} \n Stand_Free:{(i.bike_stands)-(row[0][str(i.number)])}"
+        data = str(i.name) +" \n Stands Available"+ str((i.bike_stands)-(rtstation_row[0][str(i.number)]))+" bike Available:"+str(rtstation_row[0][str(i.number)])
+        if(((2*i.bike_stands)/3) <=  rtstation_row[0][str(i.number)]):
+            folium.Marker(location=[i.lat, i.lng],popup=data, icon=folium.Icon(color='green')).add_to(m)
+        elif(((2*i.bike_stands)/3) >=  rtstation_row[0][str(i.number)] and ((i.bike_stands)/3) <=  rtstation_row[0][str(i.number)] ):
+            folium.Marker(location=[i.lat, i.lng],popup=data, icon=folium.Icon(color='orange')).add_to(m)
+        else:
+            folium.Marker(location=[i.lat, i.lng],popup=data, icon=folium.Icon(color='red')).add_to(m)
+    return HttpResponse(m.get_root().render())
+
+
+def map_luas(request):
+    number = []
+    timestamp = 1551293222
+    station_data  = Luastations.objects.all()
+    m = folium.Map(location=[53.3465,-6.2635], zoom_start=13)
+    #m.fit_bounds(m.get_bounds())
+    rtluas = Rtluas()
+    test = Rtluas._meta.get_fields()
+    #print(test)
+    #try:
+    #    for field in test:
+    #        #print(str(field))
+    #        stn_code = str(field)[-3:]
+    #        number.append(stn_code)
+    #    print(number)
+    #except StopIteration:
+    #      pass
+
+
+    cursor = connection.cursor()
+    #cursor.execute("select * from rtluas where index < %s order by index desc limit 1;",(timestamp,))
+    #rtstation_row_2 = dictfetchall(cursor)
+    #rtstation_row_2[0].pop('stamp')
+    #print('rtstation_Row_2 is :')
+    #print(rtstation_row_2)
+
+    cursor.execute("SELECT * FROM rtluas ORDER BY index DESC LIMIT 1")
+    rtstation_row = dictfetchall(cursor)
+    for i in station_data:
+        rt_station = ast.literal_eval(rtstation_row[0][i.abbr])
+        data = f'<strong style="font-size: 20px;">Station Name:{i.name}</strong> <hr> '
+        for st_data in rt_station:
+            d = f'<div style="width: 100.0%; height: 100.0%;"><strong style="font-size: 15px;">Destination:{st_data["destination"]}</strong> <strong style="font-size: 15px;"> Due:{st_data["due"]}</strong></div> <br>'
+            data = data+d
+        popup = folium.Popup(data, max_width=300)
+        #print("i.lineid: ", i.lineid)
+        #print(type(i.lineid))
+        if(int(i.lineid) == 1):
+            folium.Marker(location=[float(i.lat), float(i.long)], popup=popup, icon=folium.Icon(color='red')).add_to(m)
+        else:
+            folium.Marker(location=[float(i.lat), float(i.long)], popup=popup, icon=folium.Icon(color='green')).add_to(m)
+    return HttpResponse(m.get_root().render())
+
+
+def map_dart(request):
+    number = []
+    timestamp = 1551293222
+    station_data  = Dartstations.objects.all()
+    m = folium.Map(location=[53.3465,-6.2635], zoom_start=13)
+    rtdart = Rtdart()
+    test = Rtdart._meta.get_fields()
+    #print()
+    cursor = connection.cursor()
+    cursor.execute("SELECT * FROM rtdart ORDER BY index DESC LIMIT 1")
+    rtstation_row = dictfetchall(cursor)
+    #print(rtstation_row)
+    for i in station_data:
+        rt_station = ast.literal_eval(rtstation_row[0][i.code])
+        data = f'<strong style="font-size: 20px;">Station Name:{i.description}</strong> <hr> '
+        for st_data in rt_station[:4]:
+            d = f'<div style="width: 100.0%; height: 100.0%;"> <strong style="font-size: 15px;">Train code:{st_data["Traincode"]}</strong> | <strong style="font-size: 15px;">Destination:{st_data["Destination"]}</strong> |  <strong style="font-size: 15px;">  Due:{st_data["Duein"]}</strong></div><br> '
+            data = data+d
+        popup = folium.Popup(data, max_width=400)
+        folium.Marker(location=[float(i.lat), float(i.long)], popup=popup, icon=folium.Icon(color='blue')).add_to(m)
+    return HttpResponse(m.get_root().render())
+    return HttpResponse(m.get_root().render())

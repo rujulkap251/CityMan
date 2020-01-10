@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calender</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/ru.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+</head>
+<body>
+    <div class="container" style="margin:20px">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <form method='post' action='/calendar/'>
+                {% csrf_token %}
+                <div class="input-group date" id="datetimepicker2">
+                    <input type="datetime-local" id="input_cal"  name="calendar" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+                <input type="submit" value="Submit" style="margin:20px;" onclick="myFunction()">
+            </div>
+        </div>
+	    </div>
+</div>
+        <script>
+            //$(function () {
+            //    $('#datetimepicker2').datetimepicker({
+            //        locale: 'ru'
+            //    });
+   //});
+	function myFunction() {
+        var x = document.getElementById("input_cal").value;
+        console.log(x+":00")	
+        var t = new Date(x).getTime()
+        URL = 'http://35.246.59.184/bike/' + t
+        //window.location = URL
+        $.ajax({
+            url: 'http://35.246.59.184/bike/' + t,
+            type: 'get'
+        })
+    }    
+        </script>
+</body>
+

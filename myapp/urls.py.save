@@ -1,0 +1,10 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    #path('', views.index, name='index'),
+    path('map/',views.map,name='map'),
+    path(', views.homepage, name='homepage'),
+    path('calendar/', views.calendar, name='calendar'),
+    path('form/', views.form, name='form'),
+]

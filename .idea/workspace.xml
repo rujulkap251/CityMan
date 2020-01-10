@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68e22b04-b457-4cba-840f-02ad78dc0158" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1612603799">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="DATABASE:bikes" value="1" />
+          <entry key="DjangoModelDependency/#CityMan" value="3" />
+          <entry key="future_rtbike" value="1" />
+          <entry key="html" value="3" />
+          <entry key="py" value="10" />
+          <entry key="rtstation" value="1" />
+          <entry key="sql" value="4" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="2" />
+          <entry key="HTML" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="10" />
+          <entry key="Scratch" value="4" />
+          <entry key="UML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="11" />
+          <entry key="py" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="50" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/2a54dc96-7fae-4435-a674-67f27fd78767.DATABASE:bikes">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>2a54dc96-7fae-4435-a674-67f27fd78767.DATABASE:bikes</OriginalElement>
+              <nodes>
+                <node x="1482.75" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups</node>
+                <node x="2525.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.dartstations</node>
+                <node x="2064.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtweather</node>
+                <node x="0.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.future_rtbike</node>
+                <node x="214.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtstation</node>
+                <node x="195.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_migrations</node>
+                <node x="428.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtluas</node>
+                <node x="0.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.form</node>
+                <node x="472.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_session</node>
+                <node x="1086.875" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type</node>
+                <node x="1605.0" y="223.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group</node>
+                <node x="1104.0" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile</node>
+                <node x="1389.6875" y="201.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission</node>
+                <node x="2321.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.station</node>
+                <node x="1277.0" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions</node>
+                <node x="619.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtdart</node>
+                <node x="1867.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.luastations</node>
+                <node x="828.0" y="424.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log</node>
+                <node x="1110.4375" y="124.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user</node>
+                <node x="1655.7375000000002" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+                  <point x="-64.0" y="-92.0" />
+                  <point x="892.0" y="99.0" />
+                  <point x="1129.625" y="99.0" />
+                  <point x="-42.75" y="37.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+                  <point x="0.0" y="-37.0" />
+                  <point x="1180.5" y="404.0" />
+                  <point x="1206.4375" y="404.0" />
+                  <point x="-32.0" y="125.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+                  <point x="-34.75" y="-37.0" />
+                  <point x="1517.5" y="394.0" />
+                  <point x="1334.4375" y="394.0" />
+                  <point x="96.0" y="125.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+                  <point x="-43.75" y="-37.0" />
+                  <point x="1320.75" y="404.0" />
+                  <point x="1270.4375" y="404.0" />
+                  <point x="32.0" y="125.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+                  <point x="34.75" y="-37.0" />
+                  <point x="1587.0" y="404.0" />
+                  <point x="1641.0" y="404.0" />
+                  <point x="-36.0" y="26.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+                  <point x="0.0" y="-48.0" />
+                  <point x="1478.6875" y="99.0" />
+                  <point x="1215.125" y="99.0" />
+                  <point x="42.75" y="37.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+                  <point x="-41.75" y="-37.0" />
+                  <point x="1697.4875000000002" y="394.0" />
+                  <point x="1523.1875" y="394.0" />
+                  <point x="44.5" y="48.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+                  <point x="41.75" y="-37.0" />
+                  <point x="1780.9875000000002" y="404.0" />
+                  <point x="1713.0" y="404.0" />
+                  <point x="36.0" y="26.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+                  <point x="43.75" y="-37.0" />
+                  <point x="1408.25" y="404.0" />
+                  <point x="1434.1875" y="404.0" />
+                  <point x="-44.5" y="48.0" />
+                </edge>
+                <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+                  <point x="64.0" y="-92.0" />
+                  <point x="1020.0" y="404.0" />
+                  <point x="1142.4375" y="404.0" />
+                  <point x="-96.0" y="125.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.651788941091435" x="348.21735514277776" y="348.21735514277776" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="166" column="90" selection-start-line="166" selection-start-column="90" selection-end-line="166" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2a54dc96-7fae-4435-a674-67f27fd78767/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3276" selection-start-column="3276" selection-end-column="3276" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://cc168b12-1bbe-4e1f-911e-8c6fdf5834f0/database/bikes/schema/public/table/rtstation">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc168b12-1bbe-4e1f-911e-8c6fdf5834f0/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myapp/tests.py" />
+        <option value="$PROJECT_DIR$/myapp/templates/myapp/homepage.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/myapp/homepage_dart.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/myapp/homepage_luas.html" />
+        <option value="$PROJECT_DIR$/myapp/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2a54dc96-7fae-4435-a674-67f27fd78767/console.sql" />
+        <option value="$PROJECT_DIR$/myapp/views.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CityMan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CityMan" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CityMan" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="CityMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dump.sql" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: ">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <module name="CityMan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CityMan" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CityMan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.CityMan" />
+      <item itemvalue="Django tests.Test: " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68e22b04-b457-4cba-840f-02ad78dc0158" name="Default Changelist" comment="" />
+      <created>1554855427213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554855427213</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.72348994" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.27651006" side_tool="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.80939597" visible="true" weight="0.44334278" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" sideWeight="0.5038168" side_tool="true" weight="0.27651006" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49618322" visible="true" weight="0.27651006" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" sideWeight="0.72348994" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.27651006" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.80939597" weight="0.44334278" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="0" sideWeight="0.5038168" side_tool="true" weight="0.27651006" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info active="true" anchor="right" id="Database" order="7" sideWeight="0.49618322" visible="true" weight="0.27651006" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pydotplus/graphviz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1124">
+          <caret line="1959" selection-start-line="1959" selection-end-line="1959" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_extensions/management/commands/graph_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dbfadc4d-9b3d-49a7-9544-a7938f1c276e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/myapp/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/myapp/homepage_luas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/myapp/homepage_dart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#534#658#0" />
+            <element signature="e#611#658#0" />
+            <element signature="e#707#972#0" />
+            <element signature="e#860#972#0" />
+            <element signature="e#1015#1315#0" />
+            <element signature="e#1205#1315#0" />
+            <element signature="e#1352#1889#0" />
+            <element signature="e#1843#1889#0" />
+            <element signature="e#1932#2171#0" />
+            <element signature="e#2071#2171#0" />
+            <element signature="e#2223#2487#0" />
+            <element signature="e#2372#2487#0" />
+            <element signature="e#2528#2969#0" />
+            <element signature="e#2920#2969#0" />
+            <element signature="e#3012#3477#0" />
+            <element signature="e#3424#3477#0" />
+            <element signature="e#3523#3746#0" />
+            <element signature="e#3638#3746#0" />
+            <element signature="e#3791#3990#0" />
+            <element signature="e#3936#3990#0" />
+            <element signature="e#4032#4251#0" />
+            <element signature="e#4200#4251#0" />
+            <element signature="e#4284#4619#0" />
+            <element signature="e#4578#4619#0" />
+            <element signature="e#4659#5493#0" />
+            <element signature="e#5445#5493#0" />
+            <element signature="e#5528#9668#0" />
+            <element signature="e#9625#9668#0" />
+            <element signature="e#9703#16261#0" />
+            <element signature="e#16218#16261#0" />
+            <element signature="e#16299#23879#0" />
+            <element signature="e#23833#23879#0" />
+            <element signature="e#31548#32129#0" />
+            <element signature="e#32083#32129#0" />
+            <element signature="e#32165#32785#0" />
+            <element signature="e#32741#32785#0" />
+            <element signature="e#32825#33011#0" />
+            <element signature="e#32962#33011#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2a54dc96-7fae-4435-a674-67f27fd78767/database/bikes/schema/public/table/future_rtbike">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="166" column="90" selection-start-line="166" selection-start-column="90" selection-end-line="166" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a34c01e9-cca8-45c3-b192-d1af2084fa6f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DjangoModelDependency/#CityMan">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#CityMan</OriginalElement>
+          <nodes>
+            <node x="" y="">models.AuthUser</node>
+            <node x="" y="">models.AuthGroupPermissions</node>
+            <node x="" y="">models.DjangoAdminLog</node>
+            <node x="" y="">models.Station</node>
+            <node x="" y="">models.AuthUserUserPermissions</node>
+            <node x="" y="">models.AuthPermission</node>
+            <node x="" y="">models.Form</node>
+            <node x="" y="">models.DjangoMigrations</node>
+            <node x="" y="">models.DjangoContentType</node>
+            <node x="" y="">models.AuthGroup</node>
+            <node x="" y="">models.UserProfile</node>
+            <node x="" y="">models.DjangoSession</node>
+            <node x="" y="">models.Rtluas</node>
+            <node x="" y="">models.Rtstation1</node>
+            <node x="" y="">models.AuthUserGroups</node>
+            <node x="" y="">models.Luastations</node>
+            <node x="" y="">models.Rtstation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7340314136125654" x="457.5" y="180.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc168b12-1bbe-4e1f-911e-8c6fdf5834f0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DATABASE/2a54dc96-7fae-4435-a674-67f27fd78767.DATABASE:bikes">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2a54dc96-7fae-4435-a674-67f27fd78767.DATABASE:bikes</OriginalElement>
+          <nodes>
+            <node x="1482.75" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups</node>
+            <node x="2525.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.dartstations</node>
+            <node x="2064.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtweather</node>
+            <node x="0.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.future_rtbike</node>
+            <node x="214.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtstation</node>
+            <node x="195.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_migrations</node>
+            <node x="428.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtluas</node>
+            <node x="0.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.form</node>
+            <node x="472.0" y="2583.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_session</node>
+            <node x="1086.875" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type</node>
+            <node x="1605.0" y="223.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group</node>
+            <node x="1104.0" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile</node>
+            <node x="1389.6875" y="201.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission</node>
+            <node x="2321.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.station</node>
+            <node x="1277.0" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions</node>
+            <node x="619.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtdart</node>
+            <node x="1867.7375" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.luastations</node>
+            <node x="828.0" y="424.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log</node>
+            <node x="1110.4375" y="124.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user</node>
+            <node x="1655.7375000000002" y="479.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+              <point x="-64.0" y="-92.0" />
+              <point x="892.0" y="99.0" />
+              <point x="1129.625" y="99.0" />
+              <point x="-42.75" y="37.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+              <point x="0.0" y="-37.0" />
+              <point x="1180.5" y="404.0" />
+              <point x="1206.4375" y="404.0" />
+              <point x="-32.0" y="125.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+              <point x="-34.75" y="-37.0" />
+              <point x="1517.5" y="394.0" />
+              <point x="1334.4375" y="394.0" />
+              <point x="96.0" y="125.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+              <point x="-43.75" y="-37.0" />
+              <point x="1320.75" y="404.0" />
+              <point x="1270.4375" y="404.0" />
+              <point x="32.0" y="125.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+              <point x="34.75" y="-37.0" />
+              <point x="1587.0" y="404.0" />
+              <point x="1641.0" y="404.0" />
+              <point x="-36.0" y="26.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+              <point x="0.0" y="-48.0" />
+              <point x="1478.6875" y="99.0" />
+              <point x="1215.125" y="99.0" />
+              <point x="42.75" y="37.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+              <point x="-41.75" y="-37.0" />
+              <point x="1697.4875000000002" y="394.0" />
+              <point x="1523.1875" y="394.0" />
+              <point x="44.5" y="48.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+              <point x="41.75" y="-37.0" />
+              <point x="1780.9875000000002" y="404.0" />
+              <point x="1713.0" y="404.0" />
+              <point x="36.0" y="26.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+              <point x="43.75" y="-37.0" />
+              <point x="1408.25" y="404.0" />
+              <point x="1434.1875" y="404.0" />
+              <point x="-44.5" y="48.0" />
+            </edge>
+            <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+              <point x="64.0" y="-92.0" />
+              <point x="1020.0" y="404.0" />
+              <point x="1142.4375" y="404.0" />
+              <point x="-96.0" y="125.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.651788941091435" x="348.21735514277776" y="348.21735514277776" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2a54dc96-7fae-4435-a674-67f27fd78767/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3276" selection-start-column="3276" selection-end-column="3276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cc168b12-1bbe-4e1f-911e-8c6fdf5834f0/database/bikes/schema/public/table/rtstation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
